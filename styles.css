@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+.ocultar{
+    display: none;
+}
+
+input{
+    display: block;
+    margin: 10px auto 10px auto;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 15px;
+    border: 2px solid #ffff;
+    width: 50%;
+    box-sizing: border-box;
+
+}
+table{
+margin: auto;
+box-shadow: 8px 8px 25px #000;
+text-align: center;
+width: 50%;
+border-collapse: collapse;
+}
+th{
+    background-color:aqua;
+    color: white;
+}
+th,td {
+    padding: 8px;
+
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+tr:hover{
+    font-weight: 500;
+}
